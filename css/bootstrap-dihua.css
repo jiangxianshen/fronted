@@ -1,0 +1,126 @@
+body{
+    font-family:'Microsoft YaHei',sans-serif;
+}
+.navbar-inverse .navbar-brand {
+    color: #e2ad12;
+}
+.lvjing{
+    width: 100%;
+    height: 100%;
+    background: rgba(159, 164, 28,0.5);
+    padding: 90px 0;
+}
+#home{
+    background: url("../image/cat.jpg");
+    background-size: cover;
+    text-align: center;
+    margin-top: 60px;
+    width: 100%;
+}
+#home h1{
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 25px;
+    color: #442c04;
+}
+#home p{
+    font-weight: 400;
+    line-height: 35px;
+    color: #442c04;
+}
+#home img{
+    margin-top: 25px;
+    display: inline-block;
+}
+#kind{
+    padding: 80px 0;
+    text-align: center;
+    background: #9d9d9d;
+}
+#kind .col-md-4{
+    padding: 15px;
+}
+#kind .col-md-4:hover{
+    background: #3c3c3c;
+    box-shadow: #2b542c;
+}
+#kind a{
+    color: #0f0f0f;
+    text-decoration:none;
+}
+#kind img{
+    margin: 0 auto;
+}
+#about{
+    background: #9d872f;
+    padding: 80px 0;
+
+}
+#about img{
+    margin-top: 0;
+    display: inline-block;
+}
+
+#face {
+    background: #0a0d30;
+    padding: 30px 0;
+    text-align: center;
+}
+#face a{
+    color: rgba(35, 26, 245, 0.91);
+    text-decoration: none;
+}
+#face h2{
+    font-weight: bold;
+    color: #3ed90e;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#face .bag{
+    color: #459d2e;
+}
+#logon{
+    background: url("../image/sights.jpg") no-repeat;
+    background-size: cover;
+    color: #f8f8f8;
+    margin-top: 20px;
+}
+
+.mengban{
+    width: inherit;
+    padding: 30px 0;
+    background: rgba(10, 13, 48, 0.5);
+}
+.panel-heading {
+    font-weight: bold;
+    font-size: large;
+}
+.panel-body {
+    color: #171716;
+}
+#logon .form-control{
+    border: none;
+    margin-top: 10px;
+    border-radius: 0;
+    height: 40px;
+}
+#logon textarea.form-control{
+    height: auto;
+}
+
+#logon input[type="submit"]{
+    background: #309d18;
+    color: #f8f8f8;
+    font-weight: bold;
+    transition: all 0.3s;
+}#logon input[type="submit"]:hover{
+    background: #1f541d;
+ }
+footer{
+    text-align: center;
+    font-weight: 400;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
